@@ -1,0 +1,49 @@
+.vertical_show input {
+  margin: 0.8rem;
+}
+.sideNav_search {
+  width: 80%;
+  display: flex;
+  padding: 8px;
+  margin: 10px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+.sideNav_input::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #b9bdcf;
+  align-items: center;
+}
+.sideNav_input {
+  border: 1px;
+  margin-left: 8px;
+}
+.sideNav_checkbox label {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #334680;
+}
+.vertical_show {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #334680;
+}
+
+.sideNav_checkbox input {
+  margin: 0.8rem;
+}

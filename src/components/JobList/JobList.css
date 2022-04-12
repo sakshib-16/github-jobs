@@ -1,0 +1,144 @@
+.grid-container {
+  display: flex;
+  box-shadow: 2px 2px 2px 2px #d3d3d3;
+  background: white;
+  padding: 16px;
+  margin-bottom: 25px;
+}
+.company_logo {
+  width: 12%;
+  background-repeat: no-repeat;
+}
+.company_details {
+  width: 70%;
+  margin-left: 30px;
+}
+.job_type {
+  width: 12%;
+  padding: 3px;
+  border: 1px solid #334680;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.margin-btm {
+  margin-bottom: 2%;
+}
+.company_name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #334680;
+}
+.job_title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #334680;
+}
+.job_type {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  text-align: center;
+  color: #334680;
+}
+.job_section {
+  display: flex;
+}
+.job_subsection {
+  position: absolute;
+  right: 70px;
+  margin-right: 20px;
+  padding: 7px;
+  width: 15%;
+  display: flex;
+}
+.span_col1 {
+  margin-right: 15px;
+}
+.span_col {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #b9bdcf;
+  margin-left: 10px;
+}
+.dis_flex {
+  display: flex;
+}
+.pagination {
+  display: inline-block;
+  float: right;
+}
+
+.pagination ul li {
+  color: #b9bdcf;
+  float: left;
+  padding: 6px 12px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #b7bcce;
+  box-sizing: border-box;
+  margin: 0 4px;
+  border-radius: 4px;
+  list-style: none;
+}
+
+.pagination .active {
+  background-color: #1e86ff;
+  color: white;
+  border: 1px solid #1e86ff;
+}
+.pagination .nextactive li:hover {
+  border: 1px solid #1e86ff;
+}
+@media only screen and (max-width: 600px) {
+  .grid-container .company_logo {
+    width: 50%;
+    height: 100px;
+  }
+  .company_details .job_section {
+    display: block;
+  }
+  .company_details .company_name {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .company_details .jobtitle {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .job_type {
+    width: 37%;
+  }
+  .job_subsection {
+    width: auto;
+    position: static;
+    padding: 0px;
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+  .span_col {
+    font-size: 10px;
+    width: 54px;
+  }
+  .job_title {
+    font-size: 17px;
+    line-height: 30px;
+  }
+}

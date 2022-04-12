@@ -1,0 +1,74 @@
+.desc_type {
+  margin-left: 12px;
+  width: 7%;
+  height: 6%;
+  text-align: center;
+  margin-top: 25px;
+}
+.desc_jobtitle h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #334680;
+}
+.company_logo {
+  width: 12%;
+}
+.grid_box {
+  display: flex;
+  margin-top: 10px;
+  height: 20%;
+}
+.bold_title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+.description_sum p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 180%;
+  /* or 24px */
+
+  color: #334680;
+}
+.desc_div {
+  display: flex;
+}
+.descsidenavigation_div {
+  width: 20%;
+}
+.summary_section {
+  margin-left: 60px;
+}
+.mar_top {
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .desc_div {
+    display: block;
+  }
+  .descsidenavigation_div {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .summary_section {
+    margin-left: 20px;
+  }
+  .summary_section .dis_flex {
+    display: block;
+  }
+  .desc_type {
+    margin-left: 0px;
+    width: 14%;
+  }
+  .job_section .dis_flex {
+    display: flex;
+  }
+}

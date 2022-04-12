@@ -1,0 +1,49 @@
+.sidebar_div h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+
+  color: #b9bdcf;
+}
+.sidebar_div p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #334680;
+}
+.sidebar_div {
+  margin-top: 20px;
+}
+.apply_title {
+  margin-top: 50px;
+}
+.mar_left button {
+  margin-left: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  text-decoration: none;
+  color: #1e86ff;
+  border: none;
+  background-color: whitesmoke;
+}
+.sidebar_div a {
+  text-decoration: none;
+  color: #1e86ff;
+  font-weight: 500;
+  margin-left: 5px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
